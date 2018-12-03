@@ -1,0 +1,25 @@
+#app-layout {
+  background: url("/images/background.jpg") no-repeat;
+  -webkit-overflow-scrolling: touch;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff; }
+
+.login-form {
+  padding: 25px;
+  margin-top: 125px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ddd;
+  height: 500px; }
+
+/*# sourceMappingURL=app.css.map */
