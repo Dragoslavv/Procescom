@@ -10,7 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-dd(env('ADMIN_SUB_DOMAIN') );
+
 
 Route::group([
     'domain' => 'http://' . env('ADMIN_SUB_DOMAIN') . '.' . env('APP_URL'),
